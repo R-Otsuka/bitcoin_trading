@@ -1,0 +1,181 @@
+2020/09/24 23:15:10 main.go:14: test
+2020/10/03 21:51:44 main.go:14: test
+2020/10/04 06:36:56 main.go:14: test
+2020/10/04 06:53:18 main.go:15: test
+2020/10/04 06:53:18 bitflyer.go:58: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalane
+2020/10/04 06:53:18 bitflyer.go:32: 1601761998
+2020/10/04 06:53:18 bitflyer.go:93: url=me/getbalane resp=
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+     
+<!-- Google Tag Manager -->
+<script>
+(function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-TWV92L');</script>
+<!-- End Google Tag Manager -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/Content/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Content/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Content/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Content/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Content/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Content/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Content/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Content/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Content/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/Content/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Content/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/Content/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Content/favicon-16x16.png">
+    <link rel="manifest" href="/Content/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/Content/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bitFlyer Lightning ビットコイン取引所</title>
+    <link href="/Content/default?v=QVEnu8KRbNG1tdKXZ53bvS-lsS93r4_ZbMKc4CySxWM1" rel="stylesheet"/>
+
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-64393818-1', 'auto');
+ga('send', 'pageview');
+</script>
+</head>
+<body class="404">
+     
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWV92L"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-bar">
+        <div class="top-bar__ticker" style="line-height:50px;">
+            <span style="line-height:50px;">
+                <img src="/Content/LightningLogo.png" class="logo" alt="Lightning Bitcoin Exchange by bitFlyer">
+            </span>
+        </div>
+    </div>
+    <main>
+        <section style="text-align: center; margin-top: 100px;">
+            <h1>NOT FOUND</h1>
+            <ul>
+                <li><a href="/">Back to Home</a></li>
+                <li><a href="https://bitflyer.com/">bitFlyer</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+2020/10/04 06:53:18 bitflyer.go:101: action=GetBalance err=invalid character '<' looking for beginning of value
+2020/10/07 21:28:43 main.go:15: test
+2020/10/07 21:28:43 bitflyer.go:60: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalane
+2020/10/07 21:28:43 bitflyer.go:32: 1602073723
+2020/10/07 21:28:43 bitflyer.go:95: url=me/getbalane resp=
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+     
+<!-- Google Tag Manager -->
+<script>
+(function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-TWV92L');</script>
+<!-- End Google Tag Manager -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/Content/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Content/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Content/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Content/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Content/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Content/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Content/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Content/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Content/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/Content/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Content/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/Content/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Content/favicon-16x16.png">
+    <link rel="manifest" href="/Content/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/Content/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bitFlyer Lightning ビットコイン取引所</title>
+    <link href="/Content/default?v=QVEnu8KRbNG1tdKXZ53bvS-lsS93r4_ZbMKc4CySxWM1" rel="stylesheet"/>
+
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-64393818-1', 'auto');
+ga('send', 'pageview');
+</script>
+</head>
+<body class="404">
+     
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWV92L"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-bar">
+        <div class="top-bar__ticker" style="line-height:50px;">
+            <span style="line-height:50px;">
+                <img src="/Content/LightningLogo.png" class="logo" alt="Lightning Bitcoin Exchange by bitFlyer">
+            </span>
+        </div>
+    </div>
+    <main>
+        <section style="text-align: center; margin-top: 100px;">
+            <h1>NOT FOUND</h1>
+            <ul>
+                <li><a href="/">Back to Home</a></li>
+                <li><a href="https://bitflyer.com/">bitFlyer</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+2020/10/07 21:28:43 bitflyer.go:103: action=GetBalance err=invalid character '<' looking for beginning of value
+2020/10/07 22:39:35 bitflyer.go:62: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalance
+2020/10/07 22:39:35 bitflyer.go:33: 1602077975
+2020/10/07 22:39:36 bitflyer.go:101: url=me/getbalance resp=[{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0},{"currency_code":"XRP","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"XEM","amount":0.0,"available":0.0}]
+2020/10/09 01:21:23 bitflyer.go:62: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalance
+2020/10/09 01:21:23 bitflyer.go:33: 1602174083
+2020/10/09 01:21:23 bitflyer.go:101: url=me/getbalance resp=[{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0},{"currency_code":"XRP","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"XEM","amount":0.0,"available":0.0}]
+2020/10/09 01:29:29 bitflyer.go:62: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalance
+2020/10/09 01:29:29 bitflyer.go:33: 1602174569
+2020/10/09 01:29:29 bitflyer.go:101: url=me/getbalance resp=[{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0},{"currency_code":"XRP","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"XEM","amount":0.0,"available":0.0}]
+2020/10/09 01:32:06 bitflyer.go:136: url=getticker resp={"product_code":"BTC_JPY","state":"RUNNING","timestamp":"2020-10-08T16:32:05.15","tick_id":29243081,"best_bid":1154629.0,"best_ask":1154850.0,"best_bid_size":0.5,"best_ask_size":0.35,"total_bid_depth":1123.7132594,"total_ask_depth":894.92000094,"market_bid_size":0.0,"market_ask_size":0.0,"ltp":1154555.0,"volume":85476.67796898,"volume_by_product":4408.63359858}
+2020/10/09 01:32:06 bitflyer.go:144: action=GetTicker err=json: cannot unmarshal object into Go value of type []bitflyer.Ticker
+2020/10/09 01:32:21 bitflyer.go:136: url=getticker resp={"product_code":"BTC_JPY","state":"RUNNING","timestamp":"2020-10-08T16:32:21.297","tick_id":29243270,"best_bid":1155114.0,"best_ask":1155205.0,"best_bid_size":0.1,"best_ask_size":0.5,"total_bid_depth":1127.03150618,"total_ask_depth":882.61270667,"market_bid_size":0.0,"market_ask_size":0.0,"ltp":1155000.0,"volume":85504.93533038,"volume_by_product":4409.92198682}
+2020/10/09 01:51:32 bitflyer.go:140: action=DateTime, err=parsing time "2020-10-08T16:51:29.81" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2020/10/09 01:51:32 bitflyer.go:140: action=DateTime, err=parsing time "2020-10-08T16:51:29.81" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
