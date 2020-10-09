@@ -3,10 +3,9 @@ package models
 import (
 	"database/sql"
 	"fmt"
+	_ "github.com/mattn/go-sqlite3"
 	"gotrading/config"
 	"log"
-
-	_ "github.com/mattn/go-sqlite3"
 	"time"
 )
 
@@ -27,24 +26,24 @@ func init() {
 		log.Fatalln(err)
 	}
 	cmd := fmt.Sprintf(`
-		CREATE TABLE IF NOT EXISTS %s(
-			time DATETIME PRIMARY KEY NOT NULL,
-			product_code STRING,
-			side STRING,
-			price FLOAT,
-			size FLOAT)`, tableNameSignalEvents)
+        CREATE TABLE IF NOT EXISTS %s (
+            time DATETIME PRIMARY KEY NOT NULL,
+            product_code STRING,
+            side STRING,
+            price FLOAT,
+            size FLOAT)`, tableNameSignalEvents)
 	DbConnection.Exec(cmd)
 
 	for _, duration := range config.Config.Durations {
 		// BTC_USD_1mとかのテーブルを作るループ
 		tableName := GetCandleTableName(config.Config.ProductCode, duration)
 		c := fmt.Sprintf(`
-			CREATE TABLE IF NOT EXISTS %s(
-			time DATETIME PRIMARY KEY NOT NULL,
-			open FLOAT,
-			close FLOAT,
-			high FLOAT,
-			low open FLOAT
+            CREATE TABLE IF NOT EXISTS %s (
+            time DATETIME PRIMARY KEY NOT NULL,
+            open FLOAT,
+            close FLOAT,
+            high FLOAT,
+            low FLOAT,
 			volume FLOAT)`, tableName)
 		DbConnection.Exec(c)
 	}

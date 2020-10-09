@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"gotrading/app/controllers"
 	"gotrading/app/models"
 	"gotrading/config"
 	"gotrading/utils"
@@ -17,4 +18,5 @@ func main() {
 	//fmt.Println(ticker.DateTime())
 	//fmt.Println(ticker.TruncateDateTime(time.Second))
 	fmt.Println(models.DbConnection)
+	controllers.StreamIngestionData()
 }
