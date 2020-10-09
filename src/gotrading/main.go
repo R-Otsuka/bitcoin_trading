@@ -19,4 +19,5 @@ func main() {
 	//fmt.Println(ticker.TruncateDateTime(time.Second))
 	fmt.Println(models.DbConnection)
 	controllers.StreamIngestionData()
+	controllers.StartWebServer()
 }
