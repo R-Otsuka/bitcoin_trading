@@ -14,3 +14,6 @@ Semaphore
 
 //dlv
 https://qiita.com/minamijoyo/items/4da68467c1c5d94c8cd7
+
+//debugはテキストログで、サーバーfunc等ではエラーとして出力する
+log.Printf("action=StreamIngestionData, %v", ticker)

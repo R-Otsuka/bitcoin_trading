@@ -9,3 +9,4 @@ src/gopkg.in/
 .DS_Store
 .idea/
 src/gotrading/stockdata.sql
+src/gotrading/gotrading.log
