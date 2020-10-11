@@ -3,10 +3,11 @@ package models
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/mattn/go-sqlite3"
 	"gotrading/config"
 	"log"
 	"time"
+
+	_ "github.com/mattn/go-sqlite3"
 )
 
 const (
@@ -35,7 +36,6 @@ func init() {
 	DbConnection.Exec(cmd)
 
 	for _, duration := range config.Config.Durations {
-		// BTC_USD_1mとかのテーブルを作るループ
 		tableName := GetCandleTableName(config.Config.ProductCode, duration)
 		c := fmt.Sprintf(`
             CREATE TABLE IF NOT EXISTS %s (

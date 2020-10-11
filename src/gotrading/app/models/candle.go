@@ -70,9 +70,7 @@ func CreateCandleWithDuration(ticker bitflyer.Ticker, productCode string, durati
 	if currentCandle == nil {
 		candle := NewCandle(productCode, duration, ticker.TruncateDateTime(duration),
 			price, price, price, price, ticker.Volume)
-		if err := candle.Create(); err != nil {
-			fmt.Println(err)
-		}
+		candle.Create()
 		return true
 	}
 
