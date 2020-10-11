@@ -6,13 +6,15 @@ import (
 	//"github.com/markcheno/go-talib"
 
 	//"gotrading/tradingalgo"
+
+	"github.com/markcheno/go-talib"
 )
 
 type DataFrameCandle struct {
 	ProductCode   string         `json:"product_code"`
 	Duration      time.Duration  `json:"duration"`
 	Candles       []Candle       `json:"candles"`
-	//Smas          []Sma          `json:"smas,omitempty"`
+	Smas          []Sma          `json:"smas,omitempty"`
 	//Emas          []Ema          `json:"emas,omitempty"`
 	//BBands        *BBands        `json:"bbands,omitempty"`
 	//IchimokuCloud *IchimokuCloud `json:"ichimoku,omitempty"`
@@ -83,7 +85,7 @@ func (df *DataFrameCandle) Opens() []float64 {
 	return s
 }
 
-func (df *DataFrameCandle) Closes() []float64 {
+func (df *DataFrameCandle) 　Closes() []float64 {
 	s := make([]float64, len(df.Candles))
 	for i, candle := range df.Candles {
 		s[i] = candle.Close
@@ -114,18 +116,18 @@ func (df *DataFrameCandle) Volume() []float64 {
 	}
 	return s
 }
-//
-//func (df *DataFrameCandle) AddSma(period int) bool {
-//	if len(df.Candles) > period {
-//		df.Smas = append(df.Smas, Sma{
-//			Period: period,
-//			Values: talib.Sma(df.Closes(), period),
-//		})
-//		return true
-//	}
-//	return false
-//}
-//
+
+func (df *DataFrameCandle) AddSma(period int) bool {
+	if len(df.Candles) > period {
+		df.Smas = append(df.Smas, Sma{
+			Period: period,
+			Values: talib.Sma(df.Closes(), period),
+		})
+		return true
+	}
+	return false
+}
+
 //func (df *DataFrameCandle) AddEma(period int) bool {
 //	if len(df.Candles) > period {
 //		df.Emas = append(df.Emas, Ema{
