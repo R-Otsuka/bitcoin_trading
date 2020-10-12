@@ -1,20 +1,14 @@
 package main
 
 import (
-	"fmt"
-	"gotrading/bitflyer"
+	"gotrading/app/controllers"
 	"gotrading/config"
 	"gotrading/utils"
-	"time"
+	"log"
 )
 
 func main() {
 	utils.LoggingSettings(config.Config.LogFile)
-	apiClient := bitflyer.New(config.Config.ApiKey, config.Config.ApiSecret)
-	//fmt.Println(apiClient.GetBalane())
-	ticker, _ := apiClient.Getticker("BTC_USD")
-	fmt.Println(ticker)
-	fmt.Println(ticker.GetMidPrice())
-	fmt.Println(ticker.DateTime())
-	fmt.Println(ticker.TruncateDateTime(time.Second))
+	controllers.StreamIngestionData()
+	log.Println(controllers.StartWebServer())
 }
